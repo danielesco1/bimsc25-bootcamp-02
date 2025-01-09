@@ -1,5 +1,6 @@
 .flexRow {
-    display: flex;
+    /* display flex creates row */
+    display: flex; 
     border: 1px dotted rgb(173, 172, 172);
 }
 
@@ -19,6 +20,7 @@
 
 .spaceBetween {
     justify-content: space-between;
+    /* this only works with a flex class */
 }
 
 .spaceAround {
